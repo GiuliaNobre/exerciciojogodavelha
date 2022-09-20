@@ -7,11 +7,10 @@
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-<div>
-    <h1>Jogo da Velha</h1>
+<body> 
+   <div>
+    <h1>Jogo da velha</h1>
     <main>
-       
         <div class="linha">
             <div id="casa01" class="casa" onclick="jogada(this);"></div>
             <div id="casa02" class="casa" onclick="jogada(this);"></div>
@@ -27,8 +26,18 @@
             <div id="casa08" class="casa" onclick="jogada(this);"></div>
             <div id="casa09" class="casa" onclick="jogada(this);"></div>
         </div>
-    </main></div>
-    
+        <div id="placar">
+            <p>Placar</p>
+            <p>x: 0</p>
+            <p>o: 0</p>
+        </div>
+        <div>
+            <button id="bt" onclick="reinicia();">Jogar novamente</button>
+        </div>
+    </main>
+   </div>
+
     <script src="index.js"></script>
+
 </body>
 </html>
