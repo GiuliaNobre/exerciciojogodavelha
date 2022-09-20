@@ -30,8 +30,24 @@ h1{
    
 }
 #bt {
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:14px;
+    padding: 6px 20px;
+    text-decoration: none;
     background-color: #400101;
-    color: #F2E3D5;
-    border: none;
-    margin: 10px;
+    color:#F2E4D8;
+
+   
+    border: 1px solid #400101;
+    margin: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+   
+}
+#placar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
