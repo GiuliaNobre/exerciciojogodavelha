@@ -1,0 +1,32 @@
+
+main{
+    border: 1px solid #400101;
+    background-color:#B5A4BF;
+   justify-content: center;
+   margin: 200px;
+}
+
+.casa{
+    border: 1px solid #400101;
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    color: #400101;
+    text-align: center;
+    line-height: 150px;
+}
+.linha{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F2E4D8;
+}
+h1{
+   color: #400101 ;
+  
+   text-align: center;
+   
+}
